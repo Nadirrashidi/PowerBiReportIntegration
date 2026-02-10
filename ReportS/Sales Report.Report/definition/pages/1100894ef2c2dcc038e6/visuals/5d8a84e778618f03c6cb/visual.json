@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "5d8a84e778618f03c6cb",
   "position": {
     "x": 238.81651900556494,
@@ -140,6 +140,25 @@
               },
               "queryRef": "Sum(sales.Total Amount)",
               "nativeQueryRef": "Total Amount"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "sales"
+                        }
+                      },
+                      "Property": "Amount"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(sales.Amount)1",
+              "nativeQueryRef": "Sum of Amount"
             }
           ]
         }
