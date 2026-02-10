@@ -56,90 +56,6 @@
               },
               "queryRef": "Sum(sales.Amount)",
               "nativeQueryRef": "Amount"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "products"
-                    }
-                  },
-                  "Property": "Category"
-                }
-              },
-              "queryRef": "products.Category",
-              "nativeQueryRef": "Category"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "products"
-                    }
-                  },
-                  "Property": "Cost_per_Box"
-                }
-              },
-              "queryRef": "products.Cost_per_Box",
-              "nativeQueryRef": "Cost_per_Box"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "sales"
-                    }
-                  },
-                  "Property": "Boxes"
-                }
-              },
-              "queryRef": "Sum(sales.Boxes)",
-              "nativeQueryRef": "Boxes"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "sales"
-                    }
-                  },
-                  "Property": "SPID"
-                }
-              },
-              "queryRef": "sales.SPID",
-              "nativeQueryRef": "SPID"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "people"
-                    }
-                  },
-                  "Property": "Team"
-                }
-              },
-              "queryRef": "people.Team",
-              "nativeQueryRef": "Team"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "sales"
-                    }
-                  },
-                  "Property": "Total Amount"
-                }
-              },
-              "queryRef": "Sum(sales.Total Amount)",
-              "nativeQueryRef": "Total Amount"
             }
           ]
         }
@@ -319,34 +235,6 @@
           }
         },
         "type": "Categorical"
-      },
-      {
-        "name": "a407587a348551ac07da",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "products"
-              }
-            },
-            "Property": "Category"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "131dffbc30b5b08f5f58",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "products"
-              }
-            },
-            "Property": "Cost_per_Box"
-          }
-        },
-        "type": "Advanced"
       },
       {
         "name": "ab6d4b8fe9dab7f5251e",
