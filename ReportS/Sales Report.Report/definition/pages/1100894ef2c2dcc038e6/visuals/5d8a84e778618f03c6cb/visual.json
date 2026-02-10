@@ -56,6 +56,20 @@
               },
               "queryRef": "Sum(sales.Amount)",
               "nativeQueryRef": "Amount"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sales"
+                    }
+                  },
+                  "Property": "PID"
+                }
+              },
+              "queryRef": "sales.PID",
+              "nativeQueryRef": "PID"
             }
           ]
         }
