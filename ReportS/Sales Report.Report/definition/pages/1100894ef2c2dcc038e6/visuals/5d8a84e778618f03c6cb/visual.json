@@ -140,25 +140,6 @@
               },
               "queryRef": "Sum(sales.Total Amount)",
               "nativeQueryRef": "Total Amount"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "sales"
-                        }
-                      },
-                      "Property": "Amount"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(sales.Amount)1",
-              "nativeQueryRef": "Sum of Amount"
             }
           ]
         }
