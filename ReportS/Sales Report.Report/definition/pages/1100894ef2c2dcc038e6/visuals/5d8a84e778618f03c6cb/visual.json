@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
   "name": "5d8a84e778618f03c6cb",
   "position": {
     "x": 238.81651900556494,
@@ -70,6 +70,20 @@
               },
               "queryRef": "sales.PID",
               "nativeQueryRef": "PID"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sales"
+                    }
+                  },
+                  "Property": "Total Sales"
+                }
+              },
+              "queryRef": "sales.Total Sales",
+              "nativeQueryRef": "Total Sales"
             }
           ]
         }
